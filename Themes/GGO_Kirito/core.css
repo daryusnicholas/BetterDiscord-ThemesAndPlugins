@@ -1,8 +1,8 @@
 :root{
      --background: url('https://images.alphacoders.com/632/632525.png');
-     --activetext-colour: white;
+     --activetext-colour: red;
  
-     --primary1-colour: red;
+     --primary1-colour: white;
      --primary2-colour: rgba(255,0,0,0.5);
      --primary3-colour: rgba(100,0,0,0.6);
      --primary4-colour: rgba(100,0,0,0.4);
@@ -638,7 +638,7 @@
 
     #app-mount .container__3f21e.checked__3f21e svg path {fill: var(--primary1-colour)}
 
-    #app-mount .lookOutlined__201d5.colorRed__201d5 { background-color: var(--primary4-colour); }
+    #app-mount .lookOutlined__201d5.colorWhite__201d5 { background-color: var(--primary4-colour); }
 
     
     #app-mount .select_a16aea {
@@ -1030,7 +1030,7 @@
         #app-mount .bd-modal-footer { background-color: var(--secondary2-colour); }
 
         #app-mount .bd-button.selected,
-        #app-mount .bd-button-filled.bd-button-color-red,
+        #app-mount .bd-button-filled.bd-button-color-white,
         #app-mount .bd-button:active { 
             background-color: var(--primary1-colour); 
         }
